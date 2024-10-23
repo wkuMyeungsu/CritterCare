@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,20 +11,32 @@
 
         <include layout="@layout/toolbar" />
 
-        <VideoView
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="240dp"
-            android:layout_margin="10dp" />
+            android:layout_height="320dp"
+            android:background="@drawable/bg_gradient_turtle"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            >
+
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white"
             android:orientation="horizontal"
-            android:background="#3ecf88">
+            android:padding="5dp">
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/btn_outline_turtle"
+                android:textColor="#84939b"
+                android:text="aaga" />
 
         </LinearLayout>
 

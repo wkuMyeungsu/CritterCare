@@ -15,7 +15,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/baseline_arrow_back_ios_new_24"/>
+            android:src="@drawable/ic_arrow_back_white_24"/>
         <TextView
             android:text="펫 관리 앱"
             android:textColor="@color/white"
